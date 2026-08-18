@@ -1,6 +1,6 @@
 cask "dicty" do
-  version "1.0.12"
-  sha256 "6f0bddd40f0cb50bc48b5162f3a3317b1272cacd8a7046c53ebec1feb39e7845"
+  version "1.0.13-1"
+  sha256 "e4800bd60a2d3068b013e49450a3a75488518fe3929e33837054a3c2535528d0"
 
   url "https://github.com/dicty-io/dicty/releases/download/v#{version}/Dicty.dmg"
   name "Dicty"
@@ -13,7 +13,7 @@ cask "dicty" do
   end
 
   auto_updates true
-  depends_on macos: :sonoma
+  depends_on macos: ">= :sonoma"
 
   app "Dicty.app"
 
