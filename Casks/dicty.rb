@@ -1,6 +1,6 @@
 cask "dicty" do
-  version "1.0.29"
-  sha256 "461c54fb220f793c5ab01eb4db21d582e0f042f0fb148a46699794188f0bafe2"
+  version "1.0.30"
+  sha256 "ad909663106550e9846fd332a298f125bc4427f1378229b5f8c8b05e7f4c9bfd"
 
   url "https://github.com/dicty-io/dicty/releases/download/v#{version}/Dicty.dmg"
   name "Dicty"
